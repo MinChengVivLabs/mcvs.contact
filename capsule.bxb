@@ -1,0 +1,23 @@
+capsule {
+  // id (mcvs.testapp)
+  id (mcvs.contacts)
+  version (0.1.2)
+  format (3)
+  targets {
+    target (bixby-mobile-en-US)
+  }
+  runtime-flags {
+    concepts-inherit-super-type-features
+    modern-prompt-rejection
+    support-halt-effect-in-computed-inputs
+  }
+  permissions {
+    user-profile-access
+  }
+  capsule-imports {
+    import (viv.contact) {
+      as (contact)
+      version (2.5151.7)
+    }
+  }
+}

@@ -1,0 +1,5 @@
+train (t-ragqywqtsg0gfj8qq75n5as8s) {
+  utterance ("[g:FindContact] find contact (Alex)[v:contact.SearchTerm]")
+  plan (Y2BmEC/LLNNLzs8rSUwu0XOG0J55afkMkrnJZcUwmWI9t8y8FKg0gxiynuDUxKLkjJDUolwGJgZGIGYAkowMIADlAwA=)
+  last-modified (1569610009189)
+}

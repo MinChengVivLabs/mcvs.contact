@@ -1,0 +1,5 @@
+train (t-8xzy4blgsq4zxz6pr9bm5g8sk) {
+  utterance ("[g:FindContact] find contact (John)[v:contact.SearchTerm]")
+  plan (Y2BmEC/LLNNLzs8rSUwu0XOG0J55afkM0qkVibkFOal6JanFJYkFBXpumXkpUAUMYsi6glMTi5IzQlKLchmYGBiBmAFIMjKAAJQPAA==)
+  last-modified (1569615104561)
+}

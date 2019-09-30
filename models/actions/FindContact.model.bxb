@@ -1,0 +1,25 @@
+action (FindContact) {
+  description (__DESCRIPTION__)
+  type (Search)
+  collect {
+    input (searchTerm) {
+      type (contact.SearchTerm)
+      min (Required) max (One)
+    }
+    computed-input (contactInfos) {
+      type (contact.ContactInfo)
+      min (Required) max (Many)
+      compute {
+        intent {
+          goal: contact.FindContact
+          value: $expr(searchTerm)
+        }
+      }
+    }
+  }
+  output (contact.ContactInfo) {
+    evaluate {
+      $expr(contactInfos)
+    }
+  }
+}

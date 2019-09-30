@@ -1,0 +1,5 @@
+train (t-jtdg7fzaq3nxlzybwueom134u) {
+  utterance ("[g:TextResult] show me summary of contact (Alex)[v:contact.SearchTerm]")
+  plan (XUtrCkBAGByvK1DcYS+hyF9cYFufKNZmP3J86/FDpqaZ5oEIKR1yNhMJJsvSGNHSwTXZbWIk/64kvmok+7gLtWiWikX+aKX7Bdn/UYy6eweIv6+G5KqGltYZITz4CJzidd7tLviOLj8B)
+  last-modified (1569615195855)
+}

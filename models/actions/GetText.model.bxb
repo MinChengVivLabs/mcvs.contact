@@ -1,0 +1,11 @@
+action (GetText) {
+  description (__DESCRIPTION__)
+  type (Calculation)
+  collect {
+    input (contactInfos) {
+      type (contact.ContactInfo)
+      min (Required) max (Many)
+    }
+  }
+  output (TextResult)
+}
