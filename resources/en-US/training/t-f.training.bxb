@@ -1,0 +1,5 @@
+train (t-fg3fzt32e78gcgkk0qi57zrp8) {
+  utterance ("[g:TextResult] show me summary of (Ping)[v:contact.SearchTerm]")
+  plan (Y2BlkMhNLivWS87PK0lMLinWC0mtKAlKLS7NKWEQRZVxTy0BSTKIl2WWwUT1nCG0Z15aPoMkqnq3zLwUqDSDGLKe4NTEouSMkNSiXAYWBkYGJgZmIM0AZTGCWSDABMRAcQA=)
+  last-modified (1570666767006)
+}

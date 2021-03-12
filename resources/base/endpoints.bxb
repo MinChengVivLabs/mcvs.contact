@@ -1,7 +1,7 @@
 endpoints {
   action-endpoints {
     action-endpoint (GetText) {
-      accepted-inputs (contactInfos)
+      accepted-inputs (contactInfos, addressInfos)
       local-endpoint ("GetText.js")
     }
   }

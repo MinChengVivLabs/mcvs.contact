@@ -4,7 +4,24 @@ action (GetText) {
   collect {
     input (contactInfos) {
       type (contact.ContactInfo)
-      min (Required) max (Many)
+      min (Required) max (One)
+      default-select {
+        with-rule {
+          select-first
+        }
+      }
+    }
+    computed-input (addressInfos) {
+      type(contact.AddressInfo)
+      min (Optional) max (Many)
+      compute {
+        if (exists(contactInfos)) {
+          intent {
+            goal: contact.AddressInfo
+            value: $expr(contactInfos.addressInfos)
+          }
+        }
+      }
     }
   }
   output (TextResult)

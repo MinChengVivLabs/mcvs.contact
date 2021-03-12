@@ -11,7 +11,7 @@ action (FindContact) {
       min (Required) max (Many)
       compute {
         intent {
-          goal: contact.FindContact
+          goal: contact.FindContactFromDevice
           value: $expr(searchTerm)
         }
       }

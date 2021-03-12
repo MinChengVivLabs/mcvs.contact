@@ -1,23 +1,31 @@
 capsule {
   // id (mcvs.testapp)
-  id (mcvs.contacts)
-  version (0.1.2)
+  id (mcvs.amazingContact)
+  version (0.1.5)
   format (3)
   targets {
     target (bixby-mobile-en-US)
   }
-  runtime-flags {
-    concepts-inherit-super-type-features
-    modern-prompt-rejection
-    support-halt-effect-in-computed-inputs
+  runtime-version (2)
+  store-countries {
+    all
   }
   permissions {
     user-profile-access
   }
+  store-sections {
+    section (GamesAndFun)
+  }
   capsule-imports {
+    // import (viv.self) { as (self) version (3.5.137) }
+    // import (viv.contact) { as (contact) version-from (self) }
+
     import (viv.contact) {
       as (contact)
-      version (2.5151.7)
+      version (2.5165.2)
+      // version (2.5165.2)
+      // version (2.5164.2)
+      // version (2.5158.2)
     }
   }
 }
