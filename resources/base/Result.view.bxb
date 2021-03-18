@@ -1,0 +1,16 @@
+result-view{
+  match:TextResult(this)
+
+  render{
+    layout{
+      section{
+        content{
+          paragraph{
+            value("#{value(this)}")
+            style(Legal)
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,5 +1,7 @@
 hints {
   uncategorized {
-    utterance (__ALIGNED_UTTERANCE__)
+    hint ("Ask Amazing Contact to find contact Alex")
+    hint ("Ask Amazing Contact to show me summary of contact Alex")
+    hint ("Ask Amazing Contact to find contact Ping")
   }
 }

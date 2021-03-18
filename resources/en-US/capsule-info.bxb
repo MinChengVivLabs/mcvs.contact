@@ -1,8 +1,13 @@
 capsule-info {
-  display-name (__DISPLAY_NAME__)
-  developer-name (__COMPANY_NAME__)
+  display-name (Amazing Contact)
+  dispatch-name (Amazing Contact)
+  dispatch-aliases {
+    alias (Amazing Contacts)
+  }
+  search-keywords {
+    keyword (contacts)
+  }
+  developer-name (Min Reqired)
   icon-asset (icon.png)
-  description ("__DESCRIPTION__")
-  website-url (https://example.com/)
-  terms-url (https://example.com/terms-of-use/)
+  description ("Find and display contacts on your phone")
 }
